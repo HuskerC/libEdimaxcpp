@@ -1,0 +1,2 @@
+#define LibEdimax_VERSION_MAJOR @LibEdimax_VERSION_MAJOR@
+#define LibEdimax_VERSION_MINOR @LibEdimax_VERSION_MINOR@
