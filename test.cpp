@@ -1,5 +1,5 @@
-#import <iostream>
-#import "libEdimax.h"
+#include <iostream>
+#include "libEdimax.h"
 
 int main(int argc, char* argv[])
 {

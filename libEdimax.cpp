@@ -1,5 +1,6 @@
 #include "libEdimax.h"
 #include "tinyXML2/tinyxml2.h"
+#include <string>
 
 static std::string requestString = "<?xml version=\"1.0\" encoding=\"UTF8\"?> \
     <SMARTPLUG id=\"edimax\"> \
