@@ -1,27 +1,27 @@
 # libEdimaxcpp
 
-This is a c++ library that enables comunication with edimax 2101W so far.
+This is a c++ library that enables comunication with edimax 2101W so far.<br>
 
-Still under development. 
-Switching capabilities will follow. 
+Still under development. <br>
+Switching capabilities will follow.<br> 
 
 Installation
 ----------------------
-Clone
-     git clone https://github.com/HuskerC/libEdimaxcpp.git
-Init submodule
-     cd libEdimaxcpp
-     git submodule init
-     git submodule update
-Build
-     cd ..
-     mkdir libEdimaxcpp-build
-     cd libEdimaxcpp-build
-     cmake -g make ../libEdimaxcpp
-Install
-     make
-     make install
-
+Clone<br>
+     git clone https://github.com/HuskerC/libEdimaxcpp.git<br>
+Init submodule<br>
+     cd libEdimaxcpp<br>
+     git submodule init<br>
+     git submodule update<br>
+Build<br>
+     cd ..<br>
+     mkdir libEdimaxcpp-build<br>
+     cd libEdimaxcpp-build<br>
+     cmake -g make ../libEdimaxcpp<br>
+Install<br>
+     make<br>
+     make install<br>
+<br>
 Test/Scripting purpose
 ------------------------
 
