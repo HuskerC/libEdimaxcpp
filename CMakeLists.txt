@@ -7,6 +7,7 @@ set (LibEdimax_VERSION_MINOR 0)
 SET(CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR})
 
 ADD_SUBDIRECTORY(tinyXML2)
+ADD_SUBDIRECTORY(PowerMonitor)
 
 # configure a header file to pass some of the CMake settings
 # to the source code
