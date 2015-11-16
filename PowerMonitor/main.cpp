@@ -60,7 +60,7 @@ int main(int argc, char* argv[])
 {
 	try{
 #ifdef __linux__
-		start_daemon("meinDaemon", LOG_LOCAL0);
+		start_daemon("PowerMonitor", LOG_LOCAL0);
 #endif
 		EdimaxDevice device("127.0.0.1");
 		/* The Big Loop */
