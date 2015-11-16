@@ -51,7 +51,7 @@ EdimaxDevice::PowerInformation EdimaxDevice::getCurrentPowerUsage()
     if(res!=CURLE_OK)
     {
         curl_slist_free_all(headers);
-        std::cout<<"Request Error:"<<res<<std::endl;
+        std::cerr<<"Request Error:"<<res<<std::endl;
         return EdimaxDevice::PowerInformation();
     }
     
